@@ -1,0 +1,12 @@
+div{
+    width: 0;
+    height: 0;
+    background-color: white;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+audio{
+    visibility: hidden;
+}

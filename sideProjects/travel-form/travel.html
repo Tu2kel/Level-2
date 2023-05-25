@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#region META-->    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    
+    <!--#endregion-->
+    <title>Travel Form</title>
+
+</head>
+<body>
+
+    <header>Who Else <em>TAKES YOU</em> ✈️</header>
+    <p id="p">...Where you NEED to be</p>
+
+    <div id="container">
+
+        <form  name= "travel" >
+            <!--target="_blank" OPENS IN NEW TAB  action="travelresults.html"-->
+
+                <!-- <label for="fname"></label> method="GET" target="_blank"-->
+            <input  type="text" id="fname" name="fname" placeholder="First Name" ><br><br>
+
+                <!-- <label for="lname">Last name:</label> -->
+            <input  type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+
+                <!-- <label for="age">Age:</label> -->
+            <input  type="number" id="age" name="age" min="1" max="99" step="1" placeholder="Age"><br><br>
+
+            <div class="wrapper" >
+                <div class="male" >
+                    <input  type="radio" name="gender" id="male" value="Male"> Male
+                </div>
+            
+                <div class="female">
+                    <input  type="radio" name="gender" id="female" value="Female"> Female
+                </div>
+            </div>
+            
+            <div id="meals" required>
+                <input type="checkbox" value = "vegetarian"   name="meal" id="veggie"> Vegetarian
+                <input type="checkbox" value = "gluten-free"  name="meal" id="gluten"> Gluten Free
+                <input type="checkbox" value = "steak"        name="meal" id="beef"> Steak
+            </div>
+
+            <select  type="" name="selection" id="menu">
+                <option id="zero" required >Select Destination</option>
+                <option id="one"   name = "trip"        value="Jamaica">Jamaica</option>
+                <option id="two"   name = "trip"      value="Australia">Australia</option>
+                <option id="three" name = "trip"    value="New Zealand">New Zealand</option>
+                <option id="four"  name = "trip"          value="Korea">Korea</option>
+            </select>
+
+            
+            <button type="reset" style="margin-bottom: 20px;">RESET</button>
+            <button id="submit" type="submit" value="Submit">SUBMIT</button>
+        </form>
+        
+        
+
+    </div>
+
+    <div id="clonedContainer">
+        <header></header>
+        <h1></h1>
+        <h1 id="ages"></h1>
+        <h2></h2>
+        <p id="para"></p>
+        <p id="para2"></p>
+    </div>
+
+    <script src="travel.js" >
+        
+   Number(5).to
+    
+    
+</script>
+    
+</body>
+</html>

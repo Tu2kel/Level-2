@@ -1,0 +1,35 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 800px;
+    width: 800px;
+   
+} */
+
+/* #results{
+    
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+
+} */
+div{
+    display: flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    color:lightseagreen;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+    height: 500px;
+    width: 500px;
+
+    /* border-color: 10px solid red; */
+    /* border: darkred; */
+}

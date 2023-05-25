@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+   background-color: rgb(31, 30, 30);
+
+    /* background-image: url("https://www.notion.so/image/https%3A%2F%2Fcoursework.vschool.io%2Fcontent%2Fimages%2Fsize%2Fw2000%2F2016%2F08%2F6359033294930248691178153861_airplane.jpg?id=06c0ee2c-4480-4b23-a6b4-b0dfb39f2668&table=block&spaceId=6aef2f33-de49-4357-824c-927199bca931&width=2000&userId=b77ba05f-bf0b-4a4c-894b-247ce85e53c5&cache=v2"); */
+    /* background-image: url("ultrainstinct.gif"); */
+    background-image: url("JohnKramer.jpg");
+    background-size: 170%;
+    /* background-size: 165% ; */
+    background-repeat: no-repeat;
+    
+
+}
+
+header{
+    position: relative;
+    left: 800px;
+    top: 100px;
+    color: red;
+    font-size: 25px;
+
+
+    
+}
+
+#p{
+    position: relative;
+    left: 800px;
+    top: 200px;
+    font-size: 20px;
+}
+
+
+
+#container{
+    
+
+    display: grid;  
+    
+    
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(10, 110px);    
+    height: auto;
+    width: auto;
+    background-image: url();
+    /* border: 3px solid red; */
+
+    /* background-image: url("https://www.notion.so/image/https%3A%2F%2Fcoursework.vschool.io%2Fcontent%2Fimages%2Fsize%2Fw2000%2F2016%2F08%2F6359033294930248691178153861_airplane.jpg?id=06c0ee2c-4480-4b23-a6b4-b0dfb39f2668&table=block&spaceId=6aef2f33-de49-4357-824c-927199bca931&width=2000&userId=b77ba05f-bf0b-4a4c-894b-247ce85e53c5&cache=v2"); */
+
+
+    /* background-image: url("https://tinyurl.com/2kchrh2h "); */
+
+
+    /* background-size: cover */
+
+
+   
+    
+
+}
+form{
+    
+    
+    /* grid-column: 3/4;
+    grid-row: 2; */
+    grid-column: 4/5;
+    grid-row: 4;
+    
+    
+}
+
+button{
+    position: relative;
+    top: 75%;
+    grid-row: 5/6;
+    grid-column: 3/4;
+
+    width: 100%;
+    height: 25%;
+
+    border-color: crimson;
+    background-color: rgb(24, 2, 2);
+    font-style: italic;
+    color: rgb(175, 7, 7);
+    
+}
+
+
+
+.wrapper {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    border-color: crimson;
+    background-color: rgb(24, 2, 2);
+    font-style: italic;
+    color: rgb(175, 7, 7);
+    height: 20px;
+    margin-bottom: 25px;
+
+    
+
+}
+
+#glute-free, #veg{
+    margin-bottom: 20px;
+}
+
+#glute-free{
+    margin-left: 7px
+}
+
+#menu{
+
+    position: relative;
+    top: 45px;
+    height: 40px;
+    width: 100%;
+
+    border-color: crimson;
+    background-color: black;
+    font-style: italic;
+    color: rgb(175, 7, 7);
+
+    text-decoration: underline;
+    
+}
+
+input{
+    border-color: crimson;
+    background-color: black;
+    font-style: italic;
+    color: rgb(175, 7, 7);
+}
+
+#fname, #lname, #age{
+    
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 6px;
+    
+
+}
+#meals{
+    border-color: crimson;
+    background-color: black;
+    font-style: italic;
+    color: rgb(175, 7, 7);
+}
+
+#clonedContainer{
+    /* border: 5px solid red;
+    height: 300px;
+    width: 600px; */
+    /* flex-direction: column; */
+    /* flex: end; */
+    /* background-color: aliceblue; */
+    display: grid;
+   position: relative;
+   grid-row: 1;
+   grid-column: 2;
+   width: 300px;
+
+    border-color: 15px solid red;
+    color: rgb(82, 222, 222);
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+
+
+
+
+}
+
+h1, p, h2, h3{
+    z-index: 5;
+    color: red;
+    font-size: larger;
+}
+

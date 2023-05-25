@@ -1,0 +1,82 @@
+button {
+    position: relative;
+    float: left;
+    border: rgb(37, 33, 33) 20px;
+    border-radius: 25px;
+    background-color: rgb(15, 13, 1);
+    color: rgb(232, 9, 9);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+::placeholder{
+    font-style: italic;
+   
+}
+@keyframes move {
+  from { left: 0px; }
+  to { left: 150px; }
+}
+
+.delay-5 {
+  animation-name: move;
+  animation-delay: 5s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+div, form{
+  width: flex;
+  height: 50px;
+  border-radius: 25px;
+  position: relative;
+}
+
+header{
+    animation: glow .8s ease-in-out infinite alternate;
+    font-size: 30px;
+    
+}
+
+@keyframes  glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+html{
+    max-height: max-content;
+    max-width: max-content;
+    background-color: rgb(37, 40, 44);
+    color: rgb(232, 9, 9);
+    font-weight: bold;
+    font-style: italic;
+    /* text-align: left 50px; */
+   
+}  
+form {
+    position: relative;
+    top: 50px;
+    
+}  
+
+#items{
+    position: relative;
+    top: 50px;
+}
+
+.genList {
+    position: relative;
+    top: 50px;
+    margin: 20px;
+    
+}
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajax.css">
+    <title>Axios Test</title>
+</head>
+
+<header>Axios Test</header>
+<body>
+    <div id="container" class="gallery">
+        <ul id="portraits"></ul>
+    
+        <form name = "ajaxForm" >
+            Title:      <input  type="text"     name="title"       id="banner" placeholder="Enter TITLE here">
+            Description:<input  type="text"     name="description" id="brief"  placeholder="Description">
+            Price:      <input  type="number"   name="price"       id="money"  placeholder="Price">
+            Image Url   <input  type="url"      name="imgUrl"      id="pic"    placeholder="Https://ImgUrl">
+
+            <input              type="submit"   value="Submit" id="enter"> 
+            
+
+            
+        </form>
+   
+   </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="ajax.js"></script>
+</body>
+</html>

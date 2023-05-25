@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" id="add-first" placeholder="First number">
+        <input type="number" id="add-second" placeholder="Second number">
+        <button id="add-btn">Add</button>
+        <span id="add-result"></span>
+    </div>
+    <div>
+        <input type="number" id="sub-first" placeholder="First number">
+        <input type="number" id="sub-second" placeholder="Second number">
+        <button id="sub-btn">Subtract</button>
+        <span id="sub-result"></span>
+    </div>
+    <div>
+        <input type="number" id="mul-first" placeholder="First number">
+        <input type="number" id="mul-second" placeholder="Second number">
+        <button id="mul-btn">Multiply</button>
+        <span id="mul-result"></span>
+    </div>
+
+    <script>
+        const addBtn = document.querySelector("#add-btn");
+        const addResult = document.querySelector("#add-result");
+        addBtn.addEventListener("click", () => {
+            const first = parseInt(document.querySelector("#add-first").value);
+            const second = parseInt(document.querySelector("#add-second").value);
+            addResult.textContent = first + second;
+        });
+
+        const subBtn = document.querySelector("#sub-btn");
+        const subResult = document.querySelector("#sub-result");
+        subBtn.addEventListener("click", () => {
+            const first = parseInt(document.querySelector("#sub-first").value);
+            const second = parseInt(document.querySelector("#sub-second").value);
+            subResult.textContent = first - second;
+        });
+
+        const mulBtn = document.querySelector("#mul-btn");
+        const mulResult = document.querySelector("#mul-result");
+        mulBtn.addEventListener("click", () => {
+            const first = parseInt(document.querySelector("#mul-first").value);
+            const second = parseInt(document.querySelector("#mul-second").value);
+            mulResult.textContent = first * second;
+        });
+    </script>
+</body>
+
+</html>

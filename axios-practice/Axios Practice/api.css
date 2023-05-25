@@ -1,0 +1,51 @@
+ul{
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+
+}
+
+
+form{
+    
+    position: relative;
+
+    float: right;
+
+}
+
+h2:hover{
+    color: greenyellow;
+    
+}
+img:hover{
+    opacity: 0.3;
+    
+}
+
+
+html, body {
+   
+    margin: 0;
+    padding: 0;
+    background-image:url("DBZAPI.gif"); 
+    background-size: 300px 300px,
+    
+    
+    
+    
+    
+}
+
+h1{
+    
+    color: gold;
+    opacity: 0.8;
+    font-size: 20px;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    
+
+    
+}

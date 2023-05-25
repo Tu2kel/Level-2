@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    border: 5px solid red;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+button{
+    
+    height: 20px;
+    width: 45px;
+}
+
+img{
+    height: 25vh;
+    width: 25vh;
+}
+

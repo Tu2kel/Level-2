@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 700px);
+}
+
+html{
+    display: grid;
+     /* background-image: url("https://tinyurl.com/2p93zm3d"); */
+     background-image: url("https://tinyurl.com/yckz77zj ");
+     /* background-repeat: no-repeat; */
+     /* background-size: 200%; */
+}
+
+header{
+    
+    
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: double underline;
+    color: rgba(255, 0, 81, 0.636);
+    position: relative;
+    top: 23vh;
+    
+    
+}
+
+/* .headerbg{
+    height: 15em;
+  
+    background-image: url("https://tinyurl.com/yckz77zj ");
+
+} */
+
+#container{
+    border: 5px solid black;
+    grid-template-columns: repeat(autofit, minmax ( 1fr));
+    grid-template-rows: repeat(3, 800px);
+    position: relative;
+    top: 190px;
+    grid-column: 1/5;
+    grid-row: 1/5;
+   
+}
+
+.gallery{
+    background-image: url("https://tinyurl.com/55dfpm52");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 20%  ;
+    
+    
+ 
+
+}
+
+form{
+    
+    position: relative;
+    
+    color: red;
+    font-size: 1.2rem;
+    left: 10%;
+    bottom: 30%;
+    justify-content: space-evenly;
+    bottom: 2335px;
+
+}
+
+
+button{
+    color: red;
+    background-color: black;
+    height: 20px;
+    width: 45px;
+    border: 1px solid  red;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+img{
+    
+    height: 25vh;
+    width: 25vh;
+}
+
+/* img:hover{
+    opacity: .5;
+
+   
+    transform: scale(3); 
+    
+} */
+
+#banner, #brief, #money, #pic, #enter{
+    height: 3vh;
+    width: 30vh;
+    color: red;
+    background-color: black;
+    border: 3px solid  red;
+    display: grid;
+
+    
+}
+
+/* input{
+    position: relative;
+    left
+
+} */
+
+#banner{
+    position: relative;
+    right: 500px;
+    bottom: 22px;
+}
+
+#brief{
+    position: relative;
+    bottom: 56px;
+    right: 210px;
+}
+
+#money{
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+}
+
+#pic{
+     position: relative;
+    bottom: 124px;
+    left: 370px;
+}
+
+
+#enter{
+    color: red;
+    border: 3px solid  red;
+    background-color: black;
+
+    position: relative;
+    bottom: 157.2px;
+    left: 660px;
+ }
+
+h1{
+    color: rgba(0, 255, 255, 0.558);
+}
+h2{
+    color: rgba(0, 206, 209, 0.663);
+}
+h3{
+    color: rgb(58, 205, 50);
+}
+ 
+
+
+div {
+
+    display: grid;
+    margin: 80px;
+    
+    /* display: grid; */
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* align-items: center; */
+    float: left;
+}
+
+
+
